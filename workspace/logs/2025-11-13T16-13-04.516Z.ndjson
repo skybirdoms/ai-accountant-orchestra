@@ -1,0 +1,5 @@
+{"ts": "2025-11-13T16:13:04.558Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 22.928, "message": "fn=tools.data_io.loader.load_dataframe"}
+{"ts": "2025-11-13T16:13:04.562Z", "level": "INFO", "event": "tool", "step": "validate_schema", "status": "OK", "duration_ms": 3.166, "message": "fn=tools.validation.schema.validate_dataframe"}
+{"ts": "2025-11-13T16:13:04.570Z", "level": "INFO", "event": "tool", "step": "summarize", "status": "OK", "duration_ms": 8.686, "message": "fn=tools.analysis.bookkeeping.summarize"}
+{"ts": "2025-11-13T16:13:04.666Z", "level": "INFO", "event": "tool", "step": "save_summary", "status": "OK", "duration_ms": 95.284, "message": "fn=tools.data_io.exporter.save_summary"}
+{"ts": "2025-11-13T16:13:04.668Z", "level": "INFO", "event": "tool", "step": "render_report", "status": "OK", "duration_ms": 1.994, "message": "fn=tools.reports.renderer.render_markdown"}

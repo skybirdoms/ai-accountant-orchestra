@@ -1,0 +1,1 @@
+{"ts": "2025-11-06T22:09:59.527Z", "level": "INFO", "event": "tool", "step": "load", "status": "OK", "duration_ms": 15.648, "message": "fn=tools.data_io.loader.load_dataframe"}

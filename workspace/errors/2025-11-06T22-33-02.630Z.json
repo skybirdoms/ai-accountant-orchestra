@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-06T22:33:02.628Z",
+  "recipe": "recipes/btw_return.yml",
+  "step": "controller",
+  "error": "KeyError: 'Missing config path: steps.load_csv.result'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 166, in run_recipe\n    recipe = resolve_placeholders(recipe, overrides)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 117, in resolve_placeholders\n    return _resolve_in_obj(obj, cfg)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 108, in _resolve_in_obj\n    return {k: _resolve_in_obj(v, cfg) for k, v in node.items()}\n               ~~~~~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 106, in _resolve_in_obj\n    return [_resolve_in_obj(x, cfg) for x in node]\n            ~~~~~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 108, in _resolve_in_obj\n    return {k: _resolve_in_obj(v, cfg) for k, v in node.items()}\n               ~~~~~~~~~~~~~~~^^^^^^^^\nKeyError: 'Missing config path: steps.load_csv.result'\n"
+}

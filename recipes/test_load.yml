@@ -1,0 +1,8 @@
+version: 1
+policy:
+  continue_on_error: false
+steps:
+  - name: load_csv
+    fn: "tools.data_io.loader.load_dataframe"
+    args:
+      path: "data/demo_transactions.csv"

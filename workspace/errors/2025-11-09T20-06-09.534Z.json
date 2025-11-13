@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-09T20:06:09.533Z",
+  "recipe": "recipes\\btw_return.yml",
+  "step": "save_summary",
+  "error": "ValueError: save_summary: 'summary' must be a dict.",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 338, in run_recipe\n    result = callable_fn(**args)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\tools\\data_io\\exporter.py\", line 33, in save_summary\n    raise ValueError(\"save_summary: 'summary' must be a dict.\")\nValueError: save_summary: 'summary' must be a dict.\n"
+}

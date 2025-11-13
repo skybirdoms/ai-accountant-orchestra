@@ -1,0 +1,4 @@
+{"ts": "2025-11-09T20:06:09.422Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 12.439, "message": "fn=tools.data_io.loader.load_dataframe"}
+{"ts": "2025-11-09T20:06:09.424Z", "level": "INFO", "event": "tool", "step": "validate_schema", "status": "OK", "duration_ms": 1.797, "message": "fn=tools.validation.schema.validate_dataframe"}
+{"ts": "2025-11-09T20:06:09.434Z", "level": "INFO", "event": "tool", "step": "summarize", "status": "OK", "duration_ms": 10.155, "message": "fn=tools.analysis.bookkeeping.summarize"}
+{"ts": "2025-11-09T20:06:09.533Z", "level": "ERROR", "event": "exception", "step": "save_summary", "status": "FAILED", "duration_ms": 98.235, "message": "ValueError: save_summary: 'summary' must be a dict."}

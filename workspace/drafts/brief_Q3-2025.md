@@ -1,0 +1,3 @@
+Gross: 42.27 EUR
+VAT: 0.00 EUR
+KOR: NO

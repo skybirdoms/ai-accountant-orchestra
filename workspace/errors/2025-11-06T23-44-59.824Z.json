@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-06T23:44:59.822Z",
+  "recipe": "recipes/btw_return.yml",
+  "step": "render_report",
+  "error": "AttributeError: module 'tools.reports.renderer' has no attribute 'render_markdown'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 304, in run_recipe\n    callable_fn = _import_callable(fn_path)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 239, in _import_callable\n    return getattr(mod, attr)\nAttributeError: module 'tools.reports.renderer' has no attribute 'render_markdown'\n"
+}

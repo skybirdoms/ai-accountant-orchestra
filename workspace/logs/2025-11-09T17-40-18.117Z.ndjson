@@ -1,0 +1,3 @@
+{"ts": "2025-11-09T17:40:18.142Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 13.544, "message": "fn=tools.data_io.loader.load_dataframe"}
+{"ts": "2025-11-09T17:40:18.144Z", "level": "INFO", "event": "tool", "step": "validate_schema", "status": "OK", "duration_ms": 2.059, "message": "fn=tools.validation.schema.validate_dataframe"}
+{"ts": "2025-11-09T17:40:18.146Z", "level": "INFO", "event": "tool", "step": "render_report", "status": "OK", "duration_ms": 1.17, "message": "fn=tools.reports.renderer.render_markdown"}

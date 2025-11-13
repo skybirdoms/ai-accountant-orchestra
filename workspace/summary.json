@@ -1,0 +1,32 @@
+{
+  "n_transactions": 2,
+  "gross_revenue": 13.07,
+  "net_revenue": 13.07,
+  "returns": {
+    "n": 1,
+    "sum": -1.85
+  },
+  "by_group": [
+    {
+      "key": "Dairy",
+      "gross": -1.85,
+      "net": -1.85,
+      "n": 1,
+      "effective_rate": 0.09,
+      "tax_amount": 0.0
+    },
+    {
+      "key": "Produce",
+      "gross": 14.92,
+      "net": 14.92,
+      "n": 1,
+      "effective_rate": 0.09,
+      "tax_amount": 0.0
+    }
+  ],
+  "kor_applied": true,
+  "vat_breakdown": {
+    "low": 0.0,
+    "high": 0.0
+  }
+}

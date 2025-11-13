@@ -1,0 +1,41 @@
+{
+  "n_transactions": 10,
+  "gross_revenue": 42.269999999999996,
+  "net_revenue": 42.269999999999996,
+  "returns": {
+    "n": 1,
+    "sum": -1.0
+  },
+  "by_group": [
+    {
+      "key": "Alcohol",
+      "gross": 9.0,
+      "net": 9.0,
+      "n": 1
+    },
+    {
+      "key": "Bakery",
+      "gross": 5.2,
+      "net": 5.2,
+      "n": 2
+    },
+    {
+      "key": "Dairy",
+      "gross": 3.25,
+      "net": 3.25,
+      "n": 3
+    },
+    {
+      "key": "Household",
+      "gross": 6.0,
+      "net": 6.0,
+      "n": 1
+    },
+    {
+      "key": "Produce",
+      "gross": 18.82,
+      "net": 18.82,
+      "n": 3
+    }
+  ]
+}

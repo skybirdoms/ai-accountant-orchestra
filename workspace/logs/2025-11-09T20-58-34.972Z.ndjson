@@ -1,0 +1,4 @@
+{"ts": "2025-11-09T20:58:35.013Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 35.811, "message": "fn=tools.data_io.loader.load_dataframe"}
+{"ts": "2025-11-09T20:58:35.016Z", "level": "INFO", "event": "tool", "step": "validate_schema", "status": "OK", "duration_ms": 2.687, "message": "fn=tools.validation.schema.validate_dataframe"}
+{"ts": "2025-11-09T20:58:35.034Z", "level": "INFO", "event": "tool", "step": "summarize", "status": "OK", "duration_ms": 17.648, "message": "fn=tools.analysis.bookkeeping.summarize"}
+{"ts": "2025-11-09T20:58:35.073Z", "level": "ERROR", "event": "exception", "step": "save_summary", "status": "FAILED", "duration_ms": 39.233, "message": "TypeError: save_summary() got an unexpected keyword argument 'md_template'"}

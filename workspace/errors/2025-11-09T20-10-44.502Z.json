@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-09T20:10:44.482Z",
+  "recipe": "recipes\\btw_return.yml",
+  "step": "save_summary",
+  "error": "TypeError: type Undefined doesn't define __round__ method",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 338, in run_recipe\n    result = callable_fn(**args)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\tools\\data_io\\exporter.py\", line 97, in save_summary\n    rendered = template.render(**context)\n  File \"C:\\Users\\46735\\Desktop\\API\\ai-accountant-orchestra\\.venv\\Lib\\site-packages\\jinja2\\environment.py\", line 1295, in render\n    self.environment.handle_exception()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\46735\\Desktop\\API\\ai-accountant-orchestra\\.venv\\Lib\\site-packages\\jinja2\\environment.py\", line 942, in handle_exception\n    raise rewrite_traceback_stack(source=source)\n  File \"<template>\", line 3, in top-level template code\nTypeError: type Undefined doesn't define __round__ method\n"
+}

@@ -1,0 +1,48 @@
+version: 1
+policy:
+  continue_on_error: false
+
+steps:
+  - name: load_csv
+    fn: "tools.data_io.loader.load_dataframe"
+    args:
+      path: "data/demo_transactions.csv"
+
+  - name: validate_schema
+    fn: "tools.validation.schema.validate_dataframe"
+    args:
+      df: "${steps.load_csv.result | default(None)}"
+      schema_id: "kaggle_grocery_v1"
+    options:
+      continue_on_error: true  # не стопаем пайплайн, даже если валидация ругнётся
+
+  # Сводка по категориям
+  - name: summarize
+    fn: "tools.analysis.bookkeeping.summarize"
+    args:
+      df: "${steps.load_csv.result | default(None)}"
+      groupby: "category"
+
+  # Сохранение summary через Jinja-шаблон (JSON + Markdown)
+  - name: save_summary
+    fn: "tools.data_io.exporter.save_summary"
+    args:
+      summary: "${steps.summarize.result | default({})}"
+      json_path: "workspace/summary_latest.json"
+      md_path: "workspace/summary_latest.md"
+      meta:
+        period: "${params.period | default('N/A')}"
+        kor_applied: true
+        vat_breakdown:
+          low: 0.0
+          high: 0.0
+
+  # Дополнительный рендер (если нужен для CLI-вывода)
+  - name: render_report
+    fn: "tools.reports.renderer.render_markdown"
+    args:
+      df: "${steps.load_csv.result | default(None)}"
+      meta: "${steps.load_csv.result_meta | default({})}"
+      period: "${params.period | default('N/A')}"
+    options:
+      continue_on_error: true

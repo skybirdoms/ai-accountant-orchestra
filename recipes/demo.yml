@@ -1,0 +1,12 @@
+version: 1
+policy:
+  continue_on_error: false
+
+steps:
+  - id: load
+    type: tool
+    fn: tools.data_io.loader.load_dataframe
+    args:
+      path: "sample_data.csv"     # если у тебя другой файл — подставь его путь
+      config_path: "config.yaml"
+

@@ -1,0 +1,1 @@
+{"ts": "2025-11-09T18:26:17.210Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 13.08, "message": "fn=tools.data_io.loader.load_dataframe"}

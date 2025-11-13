@@ -1,0 +1,2 @@
+{"ts": "2025-11-06T23:02:09.570Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 15.579, "message": "fn=tools.data_io.loader.load_dataframe"}
+{"ts": "2025-11-06T23:02:09.571Z", "level": "ERROR", "event": "exception", "step": "validate_schema", "status": "FAILED", "duration_ms": 0.204, "message": "ModuleNotFoundError: No module named 'tools.validation'"}

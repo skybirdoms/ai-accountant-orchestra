@@ -1,0 +1,4 @@
+{"ts": "2025-11-09T20:10:44.415Z", "level": "INFO", "event": "tool", "step": "load_csv", "status": "OK", "duration_ms": 11.6, "message": "fn=tools.data_io.loader.load_dataframe"}
+{"ts": "2025-11-09T20:10:44.417Z", "level": "INFO", "event": "tool", "step": "validate_schema", "status": "OK", "duration_ms": 2.045, "message": "fn=tools.validation.schema.validate_dataframe"}
+{"ts": "2025-11-09T20:10:44.428Z", "level": "INFO", "event": "tool", "step": "summarize", "status": "OK", "duration_ms": 10.776, "message": "fn=tools.analysis.bookkeeping.summarize"}
+{"ts": "2025-11-09T20:10:44.481Z", "level": "ERROR", "event": "exception", "step": "save_summary", "status": "FAILED", "duration_ms": 53.083, "message": "TypeError: type Undefined doesn't define __round__ method"}

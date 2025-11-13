@@ -1,0 +1,4 @@
+customer_id,store_name,transaction_date,aisle,product_name,quantity,unit_price,total_amount,discount_amount,final_amount,loyalty_points
+2824,GreenGrocer Plaza,2024-01-15,Produce,Pasta,2,7.46,14.92,0.00,14.92,377
+5506,ValuePlus Market,2024-01-28,Dairy,Cheese,1,1.85,-1.85,0.00,-1.85,120
+9011,DailyMart,2024-02-03,Dairy,Milk,1,2.50,2.50,0.00,2.50,45

@@ -1,0 +1,28 @@
+{
+  "by_group": [
+    {
+      "gross": -1.85,
+      "key": "Dairy",
+      "n": 1,
+      "net": -1.85
+    },
+    {
+      "gross": 14.92,
+      "key": "Produce",
+      "n": 1,
+      "net": 14.92
+    }
+  ],
+  "gross_revenue": 13.07,
+  "n_transactions": 2,
+  "net_revenue": 13.07,
+  "returns": {
+    "n": 1,
+    "sum": -1.85
+  },
+  "vat": {
+    "effective_rate": 0.21,
+    "method": "default",
+    "tax_amount": 2.7447
+  }
+}

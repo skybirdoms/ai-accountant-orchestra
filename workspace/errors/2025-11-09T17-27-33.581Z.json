@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-09T17:27:33.546Z",
+  "recipe": "recipes/btw_return.yml",
+  "step": "render_report",
+  "error": "TypeError: 'tuple_iterator' object is not subscriptable",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 305, in run_recipe\n    result = callable_fn(**args)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\tools\\reports\\renderer.py\", line 16, in render_markdown\n    row_count = rows[0] if rows else (getattr(df, \"shape\", (0,))[0] if hasattr(df, \"shape\") else 0)\n                ~~~~^^^\nTypeError: 'tuple_iterator' object is not subscriptable\n"
+}

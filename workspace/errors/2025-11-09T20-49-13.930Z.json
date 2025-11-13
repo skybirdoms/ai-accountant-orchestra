@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-09T20:49:13.925Z",
+  "recipe": "recipes/btw_return.yml",
+  "step": "save_summary",
+  "error": "TypeError: save_summary() got an unexpected keyword argument 'md_template'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 338, in run_recipe\n    result = callable_fn(**args)\nTypeError: save_summary() got an unexpected keyword argument 'md_template'\n"
+}

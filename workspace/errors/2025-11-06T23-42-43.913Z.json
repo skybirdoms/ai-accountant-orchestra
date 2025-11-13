@@ -1,0 +1,7 @@
+{
+  "ts": "2025-11-06T23:42:43.910Z",
+  "recipe": "recipes/btw_return.yml",
+  "step": "render_report",
+  "error": "ModuleNotFoundError: No module named 'tools.reports.renderer'; 'tools.reports' is not a package",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 304, in run_recipe\n    callable_fn = _import_callable(fn_path)\n  File \"C:\\Users\\46735\\Desktop\\API\\buh2\\ai-accountant-orchestra\\orchestrator\\controller.py\", line 238, in _import_callable\n    mod = importlib.import_module(mod_path)\n  File \"C:\\Users\\46735\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__init__.py\", line 88, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\nModuleNotFoundError: No module named 'tools.reports.renderer'; 'tools.reports' is not a package\n"
+}

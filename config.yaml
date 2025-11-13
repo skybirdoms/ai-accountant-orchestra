@@ -1,0 +1,16 @@
+input_schema: kaggle_grocery_v1
+
+column_mapping:
+  kaggle_grocery_v1:
+    date: "transaction_date"
+    description: "product_name"
+    amount_gross_preferred: "final_amount"
+    amount_gross_fallback: "total_amount - discount_amount"
+    category: "aisle"
+
+description_format: "{product_name}"
+
+paths:
+  demo_csv: "data/demo_transactions.csv"
+  vat_rules: "rules/nl_vat_2025.yaml"
+  summary_template: "templates/reports/summary.j2.md"

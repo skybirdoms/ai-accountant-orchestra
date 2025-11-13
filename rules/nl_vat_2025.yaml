@@ -1,0 +1,14 @@
+jurisdiction: NL
+last_updated: "2025-11-09"
+source_link: "https://www.belastingdienst.nl/wps/wcm/connect/nl/btw/content/btw-tarieven"
+
+default_rate: 0.21
+low_rate: 0.09
+kor_threshold: 20000
+
+category_rates:
+  Produce: 0.09
+  Dairy: 0.09
+  Bakery: 0.09
+  Alcohol: 0.21
+  Household: 0.21

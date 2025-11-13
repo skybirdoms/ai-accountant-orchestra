@@ -1,0 +1,11 @@
+customer_id,store_name,transaction_date,aisle,product_name,quantity,unit_price,total_amount,discount_amount,final_amount,loyalty_points
+2824,GreenGrocer Plaza,2023-08-26,Produce,Pasta,2,7.46,14.92,0.00,14.92,377
+5506,ValuePlus Market,2024-02-13,Dairy,Cheese,1,1.85,1.85,0.00,1.85,120
+1101,DailyMart,2024-11-01,Bakery,Bread,1,2.40,2.40,0.20,2.20,45
+1101,DailyMart,2024-11-02,Household,Detergent,1,6.00,6.00,0.00,6.00,60
+3322,CityFoods,2024-10-30,Alcohol,Red Wine,1,9.99,9.99,0.99,9.00,200
+3322,CityFoods,2024-10-30,Produce,Apples,3,0.80,2.40,0.00,2.40,75
+7777,FreshCo,2024-09-15,Dairy,Milk,2,1.20,2.40,0.00,2.40,50
+7777,FreshCo,2024-09-15,Bakery,Croissant,4,0.90,3.60,0.60,3.00,65
+9090,MarketHub,2024-07-07,Produce,Bananas,5,0.30,1.50,0.00,1.50,33
+9090,MarketHub,2024-07-07,Dairy,Yogurt Return,1,1.00,1.00,0.00,-1.00,0
